@@ -34,7 +34,6 @@ if(!userId && isProtectedRoute(req)){
 
 }
 
-return NextResponse.next();
 });
 
 export default createMiddleware(aj, clerk);
